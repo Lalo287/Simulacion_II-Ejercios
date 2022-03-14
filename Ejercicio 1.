@@ -3,9 +3,12 @@
   "nbformat_minor": 0,
   "metadata": {
     "colab": {
-      "name": "Untitled0.ipynb",
+      "name": "Tarea 1.ipynb",
       "provenance": [],
-      "authorship_tag": "ABX9TyNc78XqHkuEz/KbjRkR/co8",
+      "collapsed_sections": [
+        "pGfVfY7Od27_",
+        "arnOl6lBuftu"
+      ],
       "include_colab_link": true
     },
     "kernelspec": {
@@ -33,7 +36,7 @@
         "# Uso de los números aleatorios\n"
       ],
       "metadata": {
-        "id": "p1YiNW7mwFAW"
+        "id": "fCOjcKO_W6V5"
       }
     },
     {
@@ -75,15 +78,15 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "35f44775-1876-4187-ee9d-54e19e9ddbde"
+        "outputId": "6c1bacb7-0609-41f1-8678-f11e59d2657f"
       },
-      "execution_count": null,
+      "execution_count": 22,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            " Ha caido CRUZ. \n"
+            " Ha caido CARA. \n"
           ]
         }
       ]
@@ -117,15 +120,15 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "ac1030e2-b77c-451f-887e-e31b2a7d3cd1"
+        "outputId": "7b48a7a3-53a7-4e04-f8b6-0bbbf5c23205"
       },
-      "execution_count": null,
+      "execution_count": 23,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "Cara = 490  Cruz = 510\n"
+            "Cara = 504  Cruz = 496\n"
           ]
         }
       ]
@@ -160,15 +163,15 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "9e9a39f6-0435-4f25-f264-c9df3e998f81"
+        "outputId": "6b50fe45-46af-423c-c031-c9b1ee59c244"
       },
-      "execution_count": null,
+      "execution_count": 24,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "La probabilidad de que caer SOL es = 48.7 % y de caer Aguila es de = 51.3 %.\n"
+            "La probabilidad de que caer SOL es = 47.8 % y de caer Aguila es de = 52.2 %.\n"
           ]
         }
       ]
