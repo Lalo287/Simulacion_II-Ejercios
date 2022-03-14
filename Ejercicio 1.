@@ -1,0 +1,177 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyNc78XqHkuEz/KbjRkR/co8",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Lalo287/Simulacion_II-Ejercios/blob/main/Ejercicio%201.\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Uso de los números aleatorios\n"
+      ],
+      "metadata": {
+        "id": "p1YiNW7mwFAW"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Ejercicio 1:\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "pGfVfY7Od27_"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "a.   Usar la función random ( ) para simular 1 volado."
+      ],
+      "metadata": {
+        "id": "laP4r6XTu7b3"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import random \n",
+        "\n",
+        "for i in range(1):\n",
+        "    t = random.randint(1, 2)\n",
+        "    if t == 1 :\n",
+        "      print(\" Ha caido CARA. \")\n",
+        "    elif t == 2 :\n",
+        "      print(\" Ha caido CRUZ. \")\n"
+      ],
+      "metadata": {
+        "id": "fNGyyxX9evCZ",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "35f44775-1876-4187-ee9d-54e19e9ddbde"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            " Ha caido CRUZ. \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "b.   Usar la función random() para simular 1000 volados."
+      ],
+      "metadata": {
+        "id": "IokJi4AOme1w"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "c = 0\n",
+        "z = 0\n",
+        "\n",
+        "for i in range(1000):\n",
+        "    t = random.randint(1, 2)\n",
+        "    if t == 1 :\n",
+        "      c += 1\n",
+        "    elif t == 2 :\n",
+        "      z += 1\n",
+        "\n",
+        "print(\"Cara =\", c, \" Cruz =\", z)"
+      ],
+      "metadata": {
+        "id": "p2ecUJ4VolAq",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "ac1030e2-b77c-451f-887e-e31b2a7d3cd1"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Cara = 490  Cruz = 510\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "c.   Determinar de b) la probabilidad de que ocurra \"sol\" en un volado. \n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "ZlLy3_NtpI-I"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "s = 0\n",
+        "a = 0\n",
+        "\n",
+        "for i in range(1000):\n",
+        "    t = random.randint(1, 2)\n",
+        "    if t == 1 :\n",
+        "      s += 1\n",
+        "    elif t == 2 :\n",
+        "      a += 1\n",
+        "\n",
+        "print(\"La probabilidad de que caer SOL es =\", s/10, \"% y de caer Aguila es de =\", a/10, \"%.\")"
+      ],
+      "metadata": {
+        "id": "yMDKp-3XrzP3",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "9e9a39f6-0435-4f25-f264-c9df3e998f81"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "La probabilidad de que caer SOL es = 48.7 % y de caer Aguila es de = 51.3 %.\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
